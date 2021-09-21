@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Onur YILMAZ',
+  siteTitle: 'CV',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Onur YILMAZ',
@@ -12,27 +12,27 @@ module.exports = {
     I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'CAD & CAM',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'PCB Design & Prototyping',
       level: 60
     },
     {
-      name: 'Javascript',
+      name: 'Circuit Design',
       level: 50
     },
     {
-      name: 'NodeJs',
+      name: 'Algorithms & Coding',
       level: 40
     },
     {
-      name: 'React',
+      name: 'Content Production',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'Endustrial Designing',
       level: 70
     },
     /* more skills here */
@@ -40,36 +40,36 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Freelancer",
       begin: {
         month: 'sep',
         year: '2019'
       },
-      duration: null,
-      occupation: "Frontend developer",
+      duration: '2019-2020',
+      occupation: "3D Designer",
       description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
   
     },  {
-      company: "Lendico",
+      company: "Modonex",
       begin: {
         month: 'apr',
         year: '2018'
       },
       duration: null,
-      occupation: "Frontend developer",
+      occupation: "PROJECT ENGINEER",
       description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
   
     }, {
-      company: "Anapro",
+      company: "Tokyay Kereste",
       begin: {
         month: 'dec',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
+      duration: null,
+      occupation: "Electronics Designer",
       description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
     }, {
-      company: "Anapro",
+      company: "Uyar Ajans",
       begin: {
         month: 'set',
         year: '2012'
@@ -80,7 +80,7 @@ module.exports = {
   
     },
   ],
-  portifolio: [
+  works: [
     {
       image: "/images/gatsby-starter-cv.png",
       description: "Gatsby starter CV template",
@@ -91,8 +91,9 @@ module.exports = {
       description: "Responsive grid for ReactJS",
       url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
     },
-    /* more portifolio items here */
+    /* more works items here */
   ],
+
   social: {
     twitter: "https://twitter.com/onur_ylmaz_",
     linkedin: "https://www.linkedin.com/in/onur-ylmaz",
@@ -111,12 +112,12 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Özgeçmiş',
+      label: 'CV',
       url: '/',
     },
     {
-      label: 'İşler',
-      url: '/portifolio',
+      label: 'Works',
+      url: '/works',
     }
   ]
 }
