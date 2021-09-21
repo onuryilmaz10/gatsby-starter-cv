@@ -70,10 +70,10 @@ const Home = ({ className, location }) => {
           </Row>
           <Row>
             <Col xs={4} sm={4}>
-              <About title='Hakkımda' text={siteConfig.authorDescription}/>
+              <About title='About' text={siteConfig.authorDescription}/>
             </Col>
             <Col xs={4} sm={4}>
-              <Skills title='Yetenekler' skills={siteConfig.skills} />
+              <Skills title='Skills' skills={siteConfig.skills} />
             </Col>
           </Row>
           <Separator />
