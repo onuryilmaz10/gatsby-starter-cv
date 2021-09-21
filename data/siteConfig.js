@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'CV',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  siteTitle: 'Onur YILMAZ',
+  siteDescription: `SAUEEE`,
+  keyWords: ['onur', 'yilmaz', 'ieee'],
   authorName: 'Onur YILMAZ',
   twitterUsername: 'onur_ylmaz_',
   githubUsername: 'onuryilmaz10',
