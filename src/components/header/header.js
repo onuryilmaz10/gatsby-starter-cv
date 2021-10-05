@@ -100,9 +100,9 @@ const Header = ({ location, onChangeTheme, theme }) => {
           <StyledSwitch 
             onChange={onChangeTheme} 
             checked={theme === 'light'}
-            onColor="#626262"
+            onColor="#DADADA"
             offColor="#212121"
-            checkedIcon={<IconWrapper><FiSun color="yellow" /></IconWrapper>}
+            checkedIcon={<IconWrapper><FiSun color="black" /></IconWrapper>}
             uncheckedIcon={<IconWrapper><FiMoon color="white" /></IconWrapper>}
           />
         </SwitchWrapper>}

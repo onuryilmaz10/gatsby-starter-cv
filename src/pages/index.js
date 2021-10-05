@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter,FaInstagramSquare, FaInstagram } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 import { withPrefix } from "gatsby"
 import loadable from '@loadable/component'
@@ -42,7 +42,7 @@ const Home = ({ className, location }) => {
         heroImg={siteConfig.siteCover}
         title={title}
       />
-
+      
       <Wrapper className={className} >
         <Container className="page-content" fluid>
           <Row>
@@ -52,7 +52,7 @@ const Home = ({ className, location }) => {
                 src={withPrefix(siteConfig.authorAvatar)}
                 alt='user avatar'
               />
-              <div className="social">
+              <div className="social"> 
                 {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
                 </a>}
@@ -61,6 +61,9 @@ const Home = ({ className, location }) => {
                 </a>}
                 {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                   <FaTwitter className="social-icon" size="32" />
+                </a>}
+                {siteConfig.social.instagram && <a className="social-link instagram" href={siteConfig.social.instagram}>
+                  <FaInstagram className="social-icon" size="32" />
                 </a>}
                 {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                   <FaEnvelope className="social-icon" size="32" />

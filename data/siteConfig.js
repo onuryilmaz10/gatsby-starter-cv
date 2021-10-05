@@ -95,6 +95,7 @@ module.exports = {
   ],
 
   social: {
+    instagram : "https://www.instagram.com/onr_ylmaz_/",
     twitter: "https://twitter.com/onur_ylmaz_",
     linkedin: "https://www.linkedin.com/in/onur-ylmaz",
     github: "https://github.com/onuryilmaz10",
@@ -102,10 +103,10 @@ module.exports = {
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: '/images/circuit.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
-  theme_color: '#25303B',
+  theme_color: '#212121',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
