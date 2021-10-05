@@ -6,34 +6,31 @@ module.exports = {
   twitterUsername: 'onur_ylmaz_',
   githubUsername: 'onuryilmaz10',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `---<br />--- <br /><strong>IEEE, SAU.</strong>`,
   skills: [
     {
       name: 'CAD & CAM',
-      level: 70
+      level: 75
     },
     {
       name: 'PCB Design & Prototyping',
-      level: 60
+      level: 65
     },
     {
       name: 'Circuit Design',
-      level: 50
-    },
-    {
-      name: 'Algorithms & Coding',
-      level: 40
-    },
-    {
-      name: 'Content Production',
       level: 60
     },
     {
+      name: 'Algorithms & Coding',
+      level: 65
+    },
+    {
+      name: 'Content Production',
+      level: 50
+    },
+    {
       name: 'Endustrial Designing',
-      level: 70
+      level: 60
     },
     /* more skills here */
   ],
@@ -45,51 +42,66 @@ module.exports = {
         month: 'sep',
         year: '2019'
       },
-      duration: '2019-2020',
+      duration: null,
       occupation: "3D Designer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      description: "- - -"
   
     },  {
       company: "Modonex",
       begin: {
         month: 'apr',
-        year: '2018'
+        year: '2019'
       },
       duration: null,
       occupation: "PROJECT ENGINEER",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      description: "- - -"
   
     }, {
       company: "Tokyay Kereste",
       begin: {
         month: 'dec',
-        year: '2016'
+        year: '2017'
       },
       duration: null,
       occupation: "Electronics Designer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      description: "- - -"
     }, {
       company: "Uyar Ajans",
       begin: {
         month: 'set',
-        year: '2012'
+        year: '2016'
       },
-      duration: '4 yrs e 3 mos',
+      duration: '3 yrs',
       occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "- - -"
   
     },
   ],
   works: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/3dprinter.jpg",
+      description: "Printable 3D Designs",
+      url: "https://github.com/onuryilmaz10/3d-design"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/videos.jpg",
+      description: "Videos",
+      url: "https://youtube.com/playlist?list=PLN2WVmce1BZNZqx29W4l8rqA9Twmu5RCu"
+    },
+    {
+      image: "/images/tokyaybahce.png",
+      description: "Tokyay Bahce Advertisement",
+      url: "https://www.instagram.com/tokyaybahce/"
+    },
+    {
+      image: "/images/modonex.png",
+      description: "Modonex Advertisement",
+      url: "https://www.modonex.com/"
+    },
+    {
+      image: "/images/usbpowercontroller.png",
+      description: "USB-Port Power Controller",
+      url: "https://github.com/onuryilmaz10/usbport_power_controller"
     },
     /* more works items here */
   ],
@@ -101,16 +113,16 @@ module.exports = {
     github: "https://github.com/onuryilmaz10",
     email: "info@onur-yilmaz.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://www.onuryilmaz.info',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/circuit.jpg',
+  siteCover: '/images/covermini.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#212121',
   fontColor: "#000000cc",
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
-  icon: 'src/assets/gatsby-icon.png',
+  icon: 'src/assets/iconblue.png',
   headerLinks: [
     {
       label: 'CV',

@@ -64,7 +64,7 @@ class Repositories extends React.Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Daha fazla
+                  More
                   <GoLinkExternal style={{ marginLeft: 8 }} />
                 </a>
               </div>

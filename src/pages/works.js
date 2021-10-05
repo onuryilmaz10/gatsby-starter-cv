@@ -42,7 +42,7 @@ const Works = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/circuit.jpg')}
+        heroImg={withPrefix('/images/covermini.jpg')}
         title={title}
       />
 
@@ -59,8 +59,13 @@ const Works = ({ className, location }) => {
                   href={job.url}
                   target="_blank"
                 >
-                  <Image src={withPrefix(job.image)} />
-                  <p>{job.description}</p>
+                <Col
+                  align="center"
+                  >
+                <Image src={withPrefix(job.image)} />
+                <p>{job.description}</p>
+                </Col>
+                  
                 </JobCard>
               </Col>
             ))}
