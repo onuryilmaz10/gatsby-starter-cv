@@ -6,32 +6,31 @@ module.exports = {
   twitterUsername: 'onur_ylmaz_',
   githubUsername: 'onuryilmaz10',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `---<br />--- <br /><strong>IEEE, SAU.</strong>`,
+  authorDescription: `Hello, I'm student in <strong> Electrical and Electronics Engineering </strong> at Sakarya University.<br /> I have also been working on digital content production and industrial electronic product design for more than 5 years .<br />
+  Briefly, I can turn the idea into a project, plan and manage the production process, and advertise the product that comes out at the end of the process. <br />
+  `,
   skills: [
     {
-      name: 'CAD & CAM',
+      name: 'CAD/CAM',
       level: 75
     },
     {
-      name: 'PCB Design & Prototyping',
-      level: 65
-    },
-    {
-      name: 'Circuit Design',
-      level: 60
+      name: 'Electronic Design & Prototyping',
+      level: 70
     },
     {
       name: 'Algorithms & Coding',
-      level: 65
+      level: 70
     },
     {
-      name: 'Content Production',
-      level: 50
+      name: 'Visual Content Production',
+      level: 80
     },
     {
-      name: 'Endustrial Designing',
-      level: 60
-    },
+      name: 'Project Management',
+      level: 75
+    }
+    
     /* more skills here */
   ],
   jobs: [
@@ -44,7 +43,7 @@ module.exports = {
       },
       duration: null,
       occupation: "3D Designer",
-      description: "- - -"
+      description: "Printable functional parts design. (STL files are shown on the works page.)"
   
     },  {
       company: "Modonex",
@@ -54,7 +53,7 @@ module.exports = {
       },
       duration: null,
       occupation: "PROJECT ENGINEER",
-      description: "- - -"
+      description: "Electronic & Mechanical design in agricultural projects. Circuit & PCB design, prototyping via 3d print technologies, graphic design."
   
     }, {
       company: "Tokyay Kereste",
@@ -64,16 +63,16 @@ module.exports = {
       },
       duration: null,
       occupation: "Electronics Designer",
-      description: "- - -"
+      description: "Control and automation projects for wood production. Circuit & PCB design, control panel design."
     }, {
       company: "Uyar Ajans",
       begin: {
-        month: 'set',
+        month: 'sep',
         year: '2016'
       },
       duration: '3 yrs',
       occupation: "Support Technician",
-      description: "- - -"
+      description: "Corporate Advertising. Photography."
   
     },
   ],
@@ -109,6 +108,7 @@ module.exports = {
   social: {
     instagram : "https://www.instagram.com/onr_ylmaz_/",
     twitter: "https://twitter.com/onur_ylmaz_",
+    youtube: "https://www.youtube.com/channel/UCQgodw1IlFDdsOXEoeudQHw",
     linkedin: "https://www.linkedin.com/in/onur-ylmaz",
     github: "https://github.com/onuryilmaz10",
     email: "info@onur-yilmaz.com"
