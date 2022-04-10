@@ -116,7 +116,7 @@ module.exports = {
   siteUrl: 'https://www.onuryilmaz.info',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/covermini.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'G-QRFZRH57QB',
   background_color: '#ffffff',
   theme_color: '#212121',
   fontColor: "#000000cc",
